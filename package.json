@@ -1,0 +1,27 @@
+{
+  "name": "node-app-cicd-deployment-on-ec2",
+  "version": "1.0.0",
+  "description": "Deplopying Node.js App on EC2 using GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+   "test": "jest src/app.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ozort/Node-App-CICD-Deployment-on-EC2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ozort/Node-App-CICD-Deployment-on-EC2/issues"
+  },
+  "homepage": "https://github.com/Ozort/Node-App-CICD-Deployment-on-EC2#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "jest": "^30.2.0",
+    "supertest": "^7.2.2"
+  }
+}
